@@ -1,0 +1,24 @@
+/* Actions Buttons */
+
+.module--actions {
+    margin-left: auto;
+    position: absolute;
+    bottom: 30px;
+    right: 36px;
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 20px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .module--actions {
+        justify-content: center;
+    }
+}
+
+
+.module--actions>button {
+    padding: 6px 12px;
+}

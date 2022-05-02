@@ -1,0 +1,103 @@
+.btn {
+    padding: 10px 12px;
+    border-radius: 13px;
+    cursor: pointer;
+    box-shadow: var(--bs);
+    font-size: 0.95rem;
+
+    text-transform: capitalize;
+}
+
+/*  Button Icons */
+.btn>svg {
+    vertical-align: middle;
+    font-size: var(--fs-icon);
+}
+
+.btn>* {
+    margin-left: 5px;
+}
+
+/* Custom Buttons Styles */
+
+.btn--violet {
+    background-color: var(--clr-violetLight);
+    color: var(--clr-light);
+    border: none;
+}
+
+.btn--violet:hover,.btn--violet:focus  {
+    background-color: var(--clr-violetDark);
+}
+
+.btn--red {
+    background-color: var(--clr-red);
+    color: var(--clr-light);
+    border: none;
+}
+
+.btn--red:hover {
+    background-color: var(--clr-redDark);
+}
+
+.btn--yellow {
+    background-color: var(--clr-yellow);
+    color: var(--clr-light);
+    border: none;
+}
+
+.btn--yellow:hover {
+    background-color: var(--clr-yellowDark);
+}
+
+
+.btn--pink {
+    background-color: var(--clr-pink);
+    color: var(--clr-dark);
+    border: none;
+}
+
+.btn--pink:hover {
+    background-color: var(--clr-pinkDark);
+}
+
+
+
+.btn--green {
+    background-color: var(--clr-greenLight);
+    color: var(--clr-light);
+    border: none;
+}
+
+.btn--green:hover {
+    background-color: var(--clr-greenDark);
+}
+
+/* Button Sizes */
+
+.btn--small {
+    min-width: 100px;
+}
+
+.btn--medium {
+    min-width: 175px;
+}
+
+
+@media (max-width: 600px) {
+    .btn>span {
+        display: none;
+    }
+
+    .btn {
+        padding: 5px 5px;
+    }
+
+    .btn--small {
+        max-width: 100px;
+    }
+
+    .btn--medium {
+        max-width: 175px;
+    }
+}
